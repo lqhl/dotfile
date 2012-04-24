@@ -101,3 +101,6 @@ fi
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
+
+# add pypy into path
+export PATH=$PATH:/home/lqhl/programs/pypy-1.8/bin
