@@ -120,6 +120,9 @@ else
     autocmd! bufwritepost vimrc source ~/.vim_runtime/vimrc
 endif
 
+" Chinese help file
+set helplang=cn
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
@@ -158,6 +161,9 @@ set novisualbell
 set t_vb=
 set tm=500
 
+" Display line number
+set number
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
@@ -180,11 +186,9 @@ if has("gui_running")
   set t_Co=256
   set background=dark
   colorscheme peaksea
-  set nonu
 else
   colorscheme zellner
   set background=dark
-  set nonu
 endif
 
 set encoding=utf8
@@ -220,7 +224,7 @@ endtry
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-#set expandtab
+"set expandtab
 set shiftwidth=8
 set tabstop=8
 set smarttab
