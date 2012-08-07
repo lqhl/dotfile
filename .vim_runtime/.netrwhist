@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/lqhl/work/image_exp/segbench'
-let g:netrw_dirhist_2='/home/lqhl/work/image_exp/segbench/CSA++'
-let g:netrw_dirhist_3='/home/lqhl/work/painting_finder/data/butterfly'
-let g:netrw_dirhist_4='/home/lqhl/.vim_runtime/after'
-let g:netrw_dirhist_5='/home/lqhl/.vim_runtime'
-let g:netrw_dirhist_6='/home/lqhl/.vim_runtime/plugin'
