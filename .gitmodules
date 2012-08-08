@@ -1,0 +1,3 @@
+[submodule "/home/qliu/.vim_runtime"]
+	path = /home/qliu/.vim_runtime
+	url = git@github.com:lqhl/vimrc.git
